@@ -3,7 +3,7 @@ Install the typescript compiler using npm
 `npm install -g typescript`
 
 # Compiling your code on Windows
-`tsc.cmd helloworld.ts`
+`tsc.cmd -p tsconfig.json`
 
 # Running the compiled code on command line
 `node helloworld.js`
