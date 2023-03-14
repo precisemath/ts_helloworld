@@ -1,4 +1,4 @@
-function hi (person) {
+function hi (person: string) {
     return "Hello, " + person
 }
 
